@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>rider-app UI</title>
+  <link href="CSS/style1.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+</head>
+<body>
+  <nav>
+      <a class="hamburger-shell">
+	       <div class="hamb top" id="top"></div>
+		       <div class="hamb middle" id="mid"></div>
+	          <div class="menu-name">MENU</div>
+
+            <ul id="menu">
+		            <a href="#"> <i class="material-icons" id="i0">home</i> <li>Home</li></a>
+                <a href="#"> <i class="material-icons" id="i0">person</i><li>My Profile</li></a>
+		              <a href="#" id="active"> <i class='fas fa-dolly'></i></i><li >Delivery Panel</li></a>
+		                <a href="#"> <i class="material-icons" id="i0">settings</i><li>Settings</li></a>
+
+<a href="#"> <i class ="material-icons" id="i1">phone</i><li>Contact Us</li></a>
+
+                      </ul>
+                    </a>
+                  </nav>
+                  <div id="logo"> </div>
+
+
+<br><br>
+
+ <div class="container">
+   <div id="general-delivery-info"><br>
+
+     <button name="confirm" type="submit" id="rider-activate" data-submit="...Sending">Activate</button>
+     <br/>
+     <p><strong>Product Weight Range:</strong> <span id="weight-range"> 5 - 9.9 Kg</span></p>
+     <p><strong>Drop-Off Point:</strong><span id="p-destination"> Embakasi,Nyayo Estate: court 82, house no:34</span></p>
+     <p><strong>Earnings:</strong><span id ="rider-earning"> 500 Ksh.</span></p>
+  </div>
+  <div id="job-direction">
+    <p><strong>Job Location at:</strong><span id="job location"> Lorem Electronics Ltd: Moi Avenue, Jumbe House, Shop 11</span></p>
+    <button name="confirm" type="submit" id="append-map" data-submit="...Sending">Use Map To Locate Job.</button><br>
+
+<!--incoporate google maps api to direct rider to job-->
+
+  </div>
+  <div id="total-info">
+    <p><strong>Product Details:</strong> <span id="p-details">iPhone 6s Black</span></p>
+    <p><strong>Recepient Name:</strong> <span id="recepient-name">Jane Doe</span></p>
+    <p><strong>Recipient Contact:</strong> <span id="recepient-contact"> +254722345654</span></p>
+  </div>
+  <br/>
+    <button name="confirm" type="submit" id="rider-confirm" data-submit="...Sending">Confirm Job</button>
+</div> <br>
+
+<footer>
+
+   <div id="footer">
+<div class="tomottoWrap">
+ <div id="tomotto">
+   “A satisfied customer is the best business stategy of all.”
+― Michael LeBouf.
+ </div>
+</div>
+<div class="lookWrap">
+ <div id="look">
+   <div class="section">
+<br/>
+     <h3>Support</h3>
+     <a href="#">FAQs</a>
+     <a href="#">Contact Us</a>
+     <a href="#">Privacy Policy</a>
+     <a href="#">Return Policy</a>
+
+   </div>
+   <br/>
+   <div class="section">
+     <h3>About Us</h3>
+     <a href="#">About</a>
+     <a href="#">Testimonials</a>
+     <a href="#">The Team</a>
+     <a href="#">Your Feedback</a>
+   </div>
+ </div>
+</div>
+<div class="legality">
+     © Copyright 2018 -Gichimu Mwai
+   </div>
+</div>
+ </footer>
+
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type = "text/javascript"></script>
+  <script src="JS/script1.js" type="text/javascript"></script>
+</body>
+</html>

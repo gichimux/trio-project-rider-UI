@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login/signup form</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"
+  </head>
+  <body>
+    <div><img src="IMG/logo.png" id="logo"></div>
+
+   <div class="form-modal">
+
+    <div class="form-toggle">
+        <button id="login-toggle" onclick="toggleLogin()">log in</button>
+        <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+    </div>
+
+    <div id="login-form">
+        <form>
+            <input type="text" placeholder="Enter Email or Username"/>
+            <input type="password" placeholder="Enter Password"/>
+            <button type="button" class="btn login">login</button>
+            <p><a href="javascript:void(0)" id ="acc-recovery">Forgotten account</a></p>
+            <hr/>
+        </form>
+    </div>
+
+    <div id="signup-form">
+        <form>
+            <input type="email" placeholder="Enter Email"/>
+            <input type="text" placeholder="Choose Username"/>
+            <input type="password" placeholder="Create Password"/>
+            <input type="password" placeholder="Confirm Password"/>
+            <button type="button" class="btn signup">create account</button>
+            <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)" id ="terms">terms of services</a>.</p>
+            <hr/>
+
+        </form>
+    </div>
+   </div><br><br>
+   <footer>
+
+      <div id="footer">
+  <div class="tomottoWrap">
+    <div id="tomotto">
+      “A satisfied customer is the best business stategy of all.”
+― Michael LeBouf.
+    </div>
+  </div>
+  <div class="lookWrap">
+    <div id="look">
+      <div class="section">
+<br/>
+        <h3>Support</h3>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Return Policy</a>
+
+      </div>
+      <br/>
+      <div class="section">
+        <h3>About Us</h3>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">The Team</a>
+        <a href="#">Your Feedback</a>
+      </div>
+    </div>
+  </div>
+  <div class="legality">
+        © Copyright 2018 -Gichimu Mwai
+      </div>
+</div>
+    </footer>
+   <script src= JS/script.js type="text/javascript" ></script>
+  </body>
+</html>
