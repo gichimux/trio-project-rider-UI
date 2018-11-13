@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#667;
+    background:#0CF;
 }
 
 #logo {
@@ -90,7 +90,7 @@ padding: 10px;
 }
 
 #login-toggle{
-    background:#0CF;
+    background:#669;
     color:#ffff;
 }
 
