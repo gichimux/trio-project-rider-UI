@@ -1,12 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+/*****logo styling*****/
+#logo {
+	width: 170px;
+	height: 100px;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	background-color: #000;
+	font-size: 40px;
+	color: white;
+	margin: auto;
+	padding: 30px;
+}
 
-/*#logo {
- width: 50%;
- height: 200px;
- margin-left: 100px;
- padding: 10px;
-}*/
 
+#profile-pic {
+	height: 100px;
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	position: fixed;
+
+}
+
+#avatar {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
 
 .bg-cover {
 	position: fixed;
@@ -191,12 +212,7 @@ body {
 	position: fixed;
 }*/
 
-#logo {
-	width: 200px;
-	height: 200px;
-	border: 1px solid black;
-	margin: auto;
-}
+
 .container {
 	max-width:400px;
 	width:100%;
