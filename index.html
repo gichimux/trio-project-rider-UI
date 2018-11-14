@@ -34,31 +34,36 @@
 <br>
 
  <div class="container">
-   
+
      <br/>
    <div id="general-delivery-info"><br>
      <p><strong>Product Weight Range:</strong> <span id="weight-range"> 5 - 9.9 Kg</span></p>
      <p><strong>Drop-Off Point:</strong><span id="p-destination"> Embakasi,Nyayo Estate: court 82, house no:34</span></p>
-     <p><strong>Earnings:</strong><span id ="rider-earning"> 500 Ksh.</span></p>
-  </div>
+     <p><strong>Earnings:</strong><span id ="rider-earning"> 500 Ksh.</span></p><br>
+     <button name="confirm" type="submit" id="confirm-job" data-submit="...Sending" onclick="jobDirection()">Confirm Job</button>
+
+   </div>
+
+
   <div id="job-direction">
     <p><strong>Job Location at:</strong><span id="job location"> Lorem Electronics Ltd: Moi Avenue, Jumbe House, Shop 11</span></p>
 
 <!--incoporate google maps api to direct rider to job-->
 
+  <br>
+  <button name="confirm" type="submit" id="append-map" data-submit="...Sending">Use Map To Locate Job.</button><br>
   </div>
-
-<button name="confirm" type="submit" id="append-map" data-submit="...Sending">Use Map To Locate Job.</button><br>
 
   <div id="total-info">
     <p><strong>Product Details:</strong> <span id="p-details">iPhone 6s Black</span></p>
     <p><strong>Recepient Name:</strong> <span id="recepient-name">Jane Doe</span></p>
     <p><strong>Recipient Contact:</strong> <span id="recepient-contact"> +254722345654</span></p>
-  </div>
-  <br/>
-    <button name="confirm" type="submit" id="rider-confirm" data-submit="...Sending">Confirm Job</button>
-</div> <br>
 
+  <br/>
+    <button name="confirm" type="submit" id="rider-confirm" data-submit="...Sending">Confirmed Package</button>
+  </div>
+</div>
+<br>
 <footer>
 
    <div id="footer">
@@ -97,5 +102,7 @@
 
   <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type = "text/javascript"></script>
   <script src="JS/script1.js" type="text/javascript"></script>
+  <script src="JS/index.js" type="text/javascript"></script>
+
 </body>
 </html>
