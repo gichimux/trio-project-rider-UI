@@ -1,3 +1,18 @@
+#logo {
+	width: 150px;
+	height: 100px;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	background-color: #000;
+	font-size: 40px;
+	position: fixed;
+	color: white;
+	margin: auto;
+	padding: 30px;
+
+}
+
 .reveal {
 	opacity: .85;
 	display: block;
@@ -259,10 +274,6 @@ a{
 
 .section{
   overflow: hidden;
-  /*float: left;
-  display: inline;
-  width: 160px;
-  margin: 0 15px 15px 0;*/
   font: 10pt verdana;
   line-height: 1.6em;
 }
