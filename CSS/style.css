@@ -242,10 +242,6 @@ a{
 
 .section{
   overflow: hidden;
-  /*float: left;
-  display: inline;
-  width: 160px;
-  margin: 0 15px 15px 0;*/
 	font-family: 'M PLUS Rounded 1c', sans-serif;
   line-height: 1.6em;
 }
