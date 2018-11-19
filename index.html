@@ -46,12 +46,13 @@
 
 
   <div id="job-direction">
-    <p><strong>Job Location at:</strong><span id="job location"> Lorem Electronics Ltd: Moi Avenue, Jumbe House, Shop 11</span></p>
+    <p><strong>Job Location at:</strong><span id="job location"> Lorem Electronics Ltd: Moi Avenue, Jumbe House, Shop 11</span></p><br>
 
 <!--incoporate google maps api to direct rider to job-->
+    <span id="googleMap"> </span>
 
-  <br>
-  <button name="confirm" type="submit" id="append-map" data-submit="...Sending">Use Map To Locate Job.</button><br>
+    <br>
+    <button name="confirm" type="submit" id="append-map" data-submit="...Sending" onclick="myMap()">Use Map To Locate Job.</button><br>
   </div>
 
   <div id="total-info">
@@ -101,6 +102,7 @@
  </footer>
 
   <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type = "text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfn0KmG5XnymfodGJWgKvFz_eZgIVKT6U&callback=myMap"></script>
   <script src="JS/script1.js" type="text/javascript"></script>
   <script src="JS/index.js" type="text/javascript"></script>
 
