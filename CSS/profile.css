@@ -13,6 +13,8 @@
 
 }
 
+#status {color: green;}
+
 .reveal {
 	opacity: .85;
 	display: block;
